@@ -4,6 +4,6 @@ metadata:
   name: bastion
 spec:
   containers:
-  - name: bastion
-    image: debian:stretch
-    command: ["sleep", "infinity"]
+    - name: bastion
+      image: debian:stretch
+      command: ["sleep", "infinity"]
